@@ -1,8 +1,31 @@
-[![Build Status](https://travis-ci.org/pzinsta/pizzeria.svg?branch=master)](https://travis-ci.org/pzinsta/pizzeria)
+# Pizzeria Web Application
 
-# Pizzeria ([Demo](https://pizzeria-pzinsta.herokuapp.com/))
+## Introduction
+This is a web application for managing a pizzeria, including customer profiles, order management, pizza customization, order tracking, and reviews.
 
-A pizza ordering web application. 
+## Features
+- Customer Profile Management
+- Order Creation and Management
+- Pizza Builder for Custom Pizzas
+- Order Tracking
+- Review Submission and Display
+
+## Built With
+- **Java 23**: The core programming language used for developing the application.
+- **Spring Framework**: Used for dependency injection, transaction management, and web MVC.
+- **Hibernate**: Used for ORM (Object-Relational Mapping) to interact with the database.
+- **PostgreSQL**: The primary database used for storing application data.
+- **Apache Tomcat**: The servlet container used for deploying the web application.
+- **Thymeleaf**: The templating engine used for rendering dynamic web pages.
+- **Maven**: Used for project management and build automation.
+- **Log4j**: Used for logging application events.
+- **Bootstrap**: Used for responsive UI design.
+- **Angular**: Used for building the staff-facing front-end application.
+
+## Prerequisites
+- Java 23 or later
+- Apache Tomcat 8.5 or later (if not using the embedded web server)
+- PostgreSQL database (or any other supported database) 
 
 ![Home page](documentation/home.png?raw=true)
 
@@ -87,7 +110,7 @@ The keys above are not valid, so don't try to use them.
 #### 1. Clone the repository
 
 ```
-git clone https://github.com/pzinsta/pizzeria.git
+git clone https://github.com/ItsAhsanSajjad/Customized-Pizza-Making-Web-App.git
 ```
 
 #### 2. Build the .war file
@@ -132,25 +155,6 @@ You can modify the port and the context path. Also, there are other [options](ht
 
 Go to [http://localhost:8081/pizzeria/](http://localhost:8081/pizzeria/) to check that the app is up and running.
 
-## Built With
-
-* [Maven](https://maven.apache.org/)
-* [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
-* [Spring Web Flow](https://projects.spring.io/spring-webflow/)
-* [Spring Security](https://projects.spring.io/spring-security/)
-* [Hibernate ORM](http://hibernate.org/orm/)
-* [Hibernate Validator](http://hibernate.org/validator/)
-* [JUnit 4](https://junit.org/junit4/)
-* [Mockito](http://site.mockito.org/)
-* [AssertJ](http://joel-costigliola.github.io/assertj/)
-* [Apache Commons (lang, io, collections, dbcp, text, rng)](https://commons.apache.org/)
-* [Google Guava](https://github.com/google/guava)
-* [Moneta](http://javamoney.github.io/ri.html)
-* [H2](http://www.h2database.com/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Bootstrap 3](http://getbootstrap.com/docs/3.3/) 
-* [Font Awesome](https://fontawesome.com/v4.7.0/) 
-* [Angular](https://angular.io/) 
 
 ## License
 
@@ -158,12 +162,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* [jsimone/webapp-runner](https://github.com/jsimone/webapp-runner) - Webapp runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a tomcat container with a simple java -jar command.
-* [schemacrawler/SchemaCrawler](https://github.com/schemacrawler/SchemaCrawler) - Free database schema discovery and comprehension tool
-* [triologygmbh/reCAPTCHA-V2-java](https://github.com/triologygmbh/reCAPTCHA-V2-java) - Java Bindings for reCAPTCHA V2
-* [sargue/java-time-jsptags](https://github.com/sargue/java-time-jsptags) - JSP tag support for Java 8 java.time (JSR-310)
-* [eirslett/frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin) - A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma.
-* [auxiliary/rpage](https://github.com/auxiliary/rpage) - Highly responsive pagination for Bootstrap
-* [michaelbromley/ngx-pagination](https://github.com/michaelbromley/ngx-pagination) - Pagination for Angular
-* [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) - ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.
-* [Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl) - Captures a screenshot of your current page
+This project was originally created by pzinsta (https://github.com/pzinsta). I have updated and extended the project to include additional features and improvements.
