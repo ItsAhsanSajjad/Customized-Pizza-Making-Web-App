@@ -6,8 +6,8 @@
                 <address>
                     <strong>Pizzeria</strong><br>
                     1355 Pizza Street<br>
-                    New York, NY 98765<br>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890<br>
+                    Bahawalpur, PK 63100<br>
+                    <abbr title="Phone">Phone:</abbr> (+92) 300-000000<br>
                     <a href="mailto:pizzeria@example.com">pizzeria@example.com</a>
                 </address>
             </div>
@@ -23,6 +23,6 @@
         </div>
 
         <div class="clearfix"></div>
-        <p class="text-center">Made by <a href="https://github.com/pzinsta"><i class="fa fa-github" aria-hidden="true"></i> pzinsta</a></p>
+        <p class="text-center">Made by <a href="https://github.com/ItsAhsanSajjad"><i class="fa fa-github" aria-hidden="true"></i> Ahsan</a></p>
     </div>
 </footer>
